@@ -1,13 +1,10 @@
 import './list.css';
+import { TipoLista } from '../types/item';
 
-type tipoLista = {
-    itens :    {
-            id: number;
-            nome:string;
-            email:string;
-        } 
+type Lista = {
+    itens : TipoLista;
 }
-export default function Lista({itens} : tipoLista){
+export default function Lista({itens} : Lista){
  return( 
     <>
         <div id="containerItens">
