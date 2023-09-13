@@ -1,0 +1,22 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+#containerLista{
+  margin-left: 80px;
+  margin-right: 80px;
+  display: flex;
+  justify-content: space-between;
+  border-bottom: solid 1px;
+  margin-bottom: 15px;
+  padding-bottom: 10px;
+}
+
+
+.headList{
+  width: 150px;
+  
+  
+}
